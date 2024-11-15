@@ -11,11 +11,13 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* center{
+ 
+} */
 .c {
   position: relative;
   width: 550px;
-  height: 500px;
+  height: 550px;
   color: #fff;
   background: transparent;
   overflow: hidden;
@@ -219,6 +221,30 @@ span {
   to {
       left: 0;
       opacity: 1;
+  }
+}
+
+
+
+
+/* Styling for responsiveness */
+.qq {
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  #contact {
+    width: 90%; /* Ensure the form takes up most of the screen */
+  }
+}
+
+@media (max-width: 576px) {
+  #contact {
+    width: 100%; /* Full width for small devices */
+    padding: 15px; /* Slightly smaller padding */
   }
 }
 
