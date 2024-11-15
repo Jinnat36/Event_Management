@@ -243,8 +243,18 @@ span {
 
 @media (max-width: 576px) {
   #contact {
-    width: 100%; /* Full width for small devices */
+    width: 90%; /* Full width for small devices */
+    
     padding: 15px; /* Slightly smaller padding */
   }
+  .qq {
+    font-size: 1.3rem;
+    text-align: left;
+}
+.navbar-toggler-icon{
+  margin-top: -4%;
+  background-color: white; /
+
+}
 }
 
